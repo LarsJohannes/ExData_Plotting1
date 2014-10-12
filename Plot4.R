@@ -37,6 +37,7 @@ plot(data$DateTime,
 lines(data$DateTime, data$Sub_metering_2, col="red")
 lines(data$DateTime, data$Sub_metering_3, col="blue")
 legend("topright", 
+       bty = "n",
        lwd=1, 
        lty=1, 
        col = c("black", "red", "blue"), 
