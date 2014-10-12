@@ -24,7 +24,7 @@ plot(data$DateTime,
      type="l",
      col="black", 
      xlab="", 
-     ylab="Global Active Power (kilowatts)", 
+     ylab="Global Active Power", 
      main="")
 
 plot(data$DateTime, 
